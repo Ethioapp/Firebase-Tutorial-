@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Authentication">
+
+<TextView
+    android:layout_width="match_parent"
+    android:textSize="28sp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:text="Login and Registration "
+    android:layout_height="wrap_content">
+
+</TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/password"
+            android:hint="password"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/login"
+                android:layout_margin="10dp"
+                android:layout_marginTop="40dp"
+                android:text="login"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/create"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp"
+                android:text="Create new "
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
